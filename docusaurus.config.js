@@ -49,9 +49,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
+        //theme: {
+        //  customCss: require.resolve("./src/css/custom.css"),
+        //},
       }),
     ],
   ],
@@ -61,10 +61,10 @@ const config = {
     ({
       navbar: {
         title: "My Site",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
-        },
+        //logo: {
+        //  alt: "My Site Logo",
+        //  src: "img/logo.svg",
+        //},
         items: [
           {
             type: "doc",
